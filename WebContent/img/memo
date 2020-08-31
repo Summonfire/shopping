@@ -1,0 +1,53 @@
+インサート文
+
+>>>Table meisai>>>>
+create table meisai(
+id int primary key,
+id int,
+pro_cd int ,
+ko_date date,
+mei_price int
+);
+insert into user values(1,"",);
+insert into user values(2,"",);
+insert into user values(3,"",);
+
+
+
+>>>Table user>>>>
+create table user(
+user_id int primary key,
+login_cd int,
+login_pw varchar(8)
+);
+
+insert into user values(1,"A","password");
+insert into user values(2,"B","password");
+insert into user values(3,"C","password");
+
+>>>Table product>>>
+create table product(
+pro_cd int primary key,
+pro_name varchar(10),
+stock_no int ,
+pro_price int,
+pro_img varchar(30),
+pro_msg varchar(30)
+);
+
+insert into product values(1,"炊飯器",10,14800,"/img/suihannki.jpg","おいしくごはんが炊けます。");
+insert into product values(2,"USB",10,1000,"/img/usb.jpg","USBです。");
+insert into product values(3,"パソコン",20,99800,"/img/mac.jpg","PCです。");
+
+>>>Table category>>>
+create table category(
+cat_id int primary key,
+cat_name varchar(20)
+);
+
+insert into category values(1,"サンプル1");
+insert into category values(2,"サンプル2");
+insert into category values(3,"サンプル3");
+
+
+select * from ;
